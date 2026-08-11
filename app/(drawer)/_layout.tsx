@@ -5,7 +5,6 @@ export default function DrawerLayout() {
     return (
         <Drawer
             screenOptions={{
-                headerShow: true
             }}
         >
             <Drawer.Screen
