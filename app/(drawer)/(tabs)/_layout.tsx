@@ -10,10 +10,10 @@ export default function TabLayout() {
         headerShown: false,
       }}>
       <Tabs.Screen
-        name="teste"
+        name="index"
         options={{
-          title: 'Olá, esse é um teste',
-          tabBarIcon: ({ color }) => <Ionicons name="grid" size={24} color="black" />,
+          title: 'Câmera',
+          tabBarIcon: ({ color }) => <Ionicons name="camera" size={24} color={color} />,
         }}
       />
     </Tabs>
